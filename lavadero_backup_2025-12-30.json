@@ -1,0 +1,124 @@
+{
+  "settings": [
+    {
+      "id": "settings",
+      "companyName": "Lavadero Roberto",
+      "taxId": "",
+      "address": "",
+      "postalCode": "",
+      "phone": "",
+      "email": "",
+      "defaultVat": 21,
+      "docSeriesDelivery": "A",
+      "docSeriesInvoice": "F"
+    }
+  ],
+  "clients": [
+    {
+      "id": "cli_mjsziisa_xa08sw",
+      "createdAt": "2025-12-30T19:32:58.138Z",
+      "name": "Domingo Aguilera Castelaín",
+      "phone": "617093476",
+      "email": "domingales@gmail.com",
+      "taxId": "05652392 G",
+      "address": "La Rosa ,7 Malagón",
+      "notes": "",
+      "active": true,
+      "updatedAt": "2025-12-30T19:32:58.139Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "svc_mjszkdtc_mcjptj",
+      "createdAt": "2025-12-30T19:34:25.008Z",
+      "name": "Aplicacion protector ANTILLUVIA",
+      "price": 10,
+      "vat": 21,
+      "durationMin": 15,
+      "active": true,
+      "updatedAt": "2025-12-30T19:34:25.009Z"
+    },
+    {
+      "id": "svc_mjszo8t5_1epmok",
+      "createdAt": "2025-12-30T19:37:25.145Z",
+      "name": "Limpieza asiento",
+      "price": 10,
+      "vat": 21,
+      "durationMin": 20,
+      "active": true,
+      "updatedAt": "2025-12-30T19:37:25.145Z"
+    },
+    {
+      "id": "svc_mjszozlb_hxb6e6",
+      "createdAt": "2025-12-30T19:37:59.855Z",
+      "name": "Pulido lunas",
+      "price": 20,
+      "vat": 21,
+      "durationMin": 15,
+      "active": true,
+      "updatedAt": "2025-12-30T19:37:59.855Z"
+    },
+    {
+      "id": "svc_mjszpfz2_rv74jj",
+      "createdAt": "2025-12-30T19:38:21.086Z",
+      "name": "Pulido ventanilla",
+      "price": 15,
+      "vat": 21,
+      "durationMin": 10,
+      "active": true,
+      "updatedAt": "2025-12-30T19:38:21.086Z"
+    }
+  ],
+  "stockItems": [],
+  "appointments": [
+    {
+      "id": "apt_mjszlhyh_5m0ori",
+      "createdAt": "2025-12-30T19:35:17.033Z",
+      "start": "2025-12-31T07:00:00.000Z",
+      "end": "2025-12-31T08:30:00.000Z",
+      "clientId": "cli_mjsziisa_xa08sw",
+      "clientName": "Domingo Aguilera Castelaín",
+      "serviceId": "svc_mjszkdtc_mcjptj",
+      "serviceName": "Aplicacion protector ANTILLUVIA",
+      "status": "pending",
+      "notes": "",
+      "updatedAt": "2025-12-30T19:35:17.033Z"
+    },
+    {
+      "id": "apt_mjszmrsn_wzxcag",
+      "createdAt": "2025-12-30T19:36:16.439Z",
+      "start": "2025-12-30T08:00:00.000Z",
+      "end": "2025-12-30T08:30:00.000Z",
+      "clientId": "cli_mjsziisa_xa08sw",
+      "clientName": "Domingo Aguilera Castelaín",
+      "serviceId": "svc_mjszkdtc_mcjptj",
+      "serviceName": "Aplicacion protector ANTILLUVIA",
+      "status": "pending",
+      "notes": "",
+      "updatedAt": "2025-12-30T19:36:16.440Z"
+    }
+  ],
+  "cashDays": [
+    {
+      "id": "2025-12-30",
+      "openedAt": null,
+      "opening": 0,
+      "movements": [],
+      "closedAt": null,
+      "closingCounted": 0,
+      "closingTheoretical": 0,
+      "diff": 0,
+      "notes": ""
+    }
+  ],
+  "deliveryNotes": [],
+  "invoices": [],
+  "expenses": [],
+  "payments": [],
+  "counters": [],
+  "__meta": {
+    "db": "lavadero_roberto_db_v1",
+    "version": 1,
+    "exportedAt": "2025-12-30T19:40:03.005Z"
+  }
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gestión Lavadero Roberto</title>
+  <link rel="stylesheet" href="assets/css/app.css" />
+</head>
+<body>
+  <div class="appShell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brandLogo">
+          <img src="assets/img/logo-placeholder.svg" alt="Logo" />
+        </div>
+        <div class="brandText">
+          <div class="brandName">Lavadero</div>
+          <div class="brandSub">Gestión local</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a class="navItem" data-route="dashboard" href="#/dashboard">Panel</a>
+        <a class="navItem" data-route="cash" href="#/cash">Caja</a>
+        <a class="navItem" data-route="clients" href="#/clients">Clientes</a>
+        <a class="navItem" data-route="services" href="#/services">Servicios</a>
+        <a class="navItem" data-route="agenda" href="#/agenda">Agenda</a>
+        <a class="navItem" data-route="deliveryNotes" href="#/deliveryNotes">Albaranes</a>
+        <a class="navItem" data-route="invoices" href="#/invoices">Facturas</a>
+        <a class="navItem" data-route="expenses" href="#/expenses">Gastos</a>
+        <a class="navItem" data-route="stock" href="#/stock">Stock</a>
+        <a class="navItem" data-route="reports" href="#/reports">Informes</a>
+        <a class="navItem" data-route="export" href="#/export">Exportar / Importar</a>
+        <a class="navItem" data-route="settings" href="#/settings">Ajustes</a>
+      </nav>
+
+      <div class="sidebarFooter">
+        <div class="tiny muted">Datos en IndexedDB</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button id="btnToggleSidebar" class="iconBtn" type="button" aria-label="Abrir menú">☰</button>
+        <div class="pageHead">
+          <div id="pageTitle" class="pageTitle">Panel</div>
+          <div id="pageSubtitle" class="pageSubtitle">Resumen</div>
+        </div>
+        <div class="topActions">
+          <button id="btnQuickNewAppointment" class="btn btnGhost" type="button">+ Cita</button>
+          <button id="btnQuickNewDoc" class="btn" type="button">+ Albarán</button>
+        </div>
+      </header>
+
+      <div id="content" class="content"></div>
+    </main>
+  </div>
+
+  <div id="modalRoot" class="modalRoot hidden" aria-hidden="true"></div>
+
+  <!-- Core -->
+  <script src="js/db.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/print.js"></script>
+  <script src="js/export.js"></script>
+  <script src="js/import.js"></script>
+
+  <!-- Modules -->
+  <script src="js/modules/dashboard.js"></script>
+  <script src="js/modules/cash.js"></script>
+  <script src="js/modules/clients.js"></script>
+  <script src="js/modules/services.js"></script>
+  <script src="js/modules/agenda.js"></script>
+  <script src="js/modules/_docUtils.js"></script>
+  <script src="js/modules/deliveryNotes.js"></script>
+  <script src="js/modules/invoices.js"></script>
+  <script src="js/modules/expenses.js"></script>
+  <script src="js/modules/stock.js"></script>
+  <script src="js/modules/reports.js"></script>
+  <script src="js/modules/exportHub.js"></script>
+  <script src="js/modules/settings.js"></script>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
